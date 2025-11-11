@@ -18,8 +18,11 @@ class Demo
     int FindSecondLargest()
     {
         int iCnt = 0;
-        int Max = Arr[0];
-        int SecondMax = 0;
+
+        int Max = INT_MIN;
+        
+        int SecondMax = INT_MIN;
+        
         for(iCnt = 0; iCnt < iSize ; iCnt++)
         {
             if(Arr[iCnt] > Max)
