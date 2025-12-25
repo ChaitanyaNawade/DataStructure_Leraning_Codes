@@ -31,7 +31,7 @@ class ArrayOperations
 
         for(iCnt = 0 ; iCnt < Arr.length ; iCnt++)
         {
-            System.out.println(Arr[iCnt]);
+            System.out.print(Arr[iCnt] +" ");
         }
     }
 }
