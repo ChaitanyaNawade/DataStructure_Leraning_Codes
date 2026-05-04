@@ -48,7 +48,7 @@ class FindTwo
     {
         Scanner sobj = new Scanner(System.in);
 
-        int iSize = 0 , iCnt = 0 , Target = 9;
+        int iSize = 0 , iCnt = 0 , Target = 7;
 
         System.out.println("Enter the size of the array");
 

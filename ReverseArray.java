@@ -26,7 +26,7 @@ class ArrayX
 
             iStart++;
             iEnd--;
-        }
+        }          
 
         System.out.println("the elements after reverse are ");
 

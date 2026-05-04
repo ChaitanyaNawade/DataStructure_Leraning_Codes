@@ -1,4 +1,4 @@
-import java.util.Scanner;
+    import java.util.Scanner;
 
 class ArrayOperation
 {
@@ -11,18 +11,27 @@ class ArrayOperation
 
     public void BubbleSort()
     {
-        int i = 0 , j = 0, n = Arr.length,temp = 0;
+        int i = 0 , n = Arr.length,j = n-1,temp = 0;
 
-        for(i = 0 ; i < n ; i++)
+        
+
+        while(i < j)
         {
-            for(j = 0 ; j < n - 1; j++)
+            if(Arr[i] < 0)
             {
-                if(Arr[j] > Arr[j+1])
-                {
-                    temp = Arr[j];
-                    Arr[j] = Arr[j+1];
-                    Arr[j+1]  = temp;
-                }
+                i++;
+            }
+            else if(Arr[j] >= 0)
+            {
+                j--;
+            }
+            else 
+            {
+            temp = Arr[i];
+            Arr[i] = Arr[j];
+            Arr[j] = temp;
+            i++;
+            j--;
             }
         }
     }
@@ -30,7 +39,7 @@ class ArrayOperation
     public void Display()
     {
         int i = 0;
-  
+
         for(i = 0 ; i < Arr.length; i++)
         {
             System.out.print(Arr[i]+" ");
@@ -38,7 +47,7 @@ class ArrayOperation
     }
 }
 
-class BubbleSort 
+class MoveNegx 
 {
     public static void main(String[] args) 
     {

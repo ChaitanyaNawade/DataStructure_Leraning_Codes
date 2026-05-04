@@ -23,7 +23,7 @@ class NumberOperation
 
         if(Num < 0)
         {
-        Num = -Num;
+         Num = -Num;
         }
         
         while(temp > 0)
@@ -48,7 +48,7 @@ int main()
 
     int iRet = 0;
 
-    cout<<"Enter the number which you want to check it is palidrome or not"<<endl;
+    cout<<"Enter the number in which you want to find the maximum digit"<<endl;
 
     cin>>iNum;
 

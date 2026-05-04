@@ -9,16 +9,17 @@ class ArrayX
         this.Arr = Arr;
     }
 
-    public boolean  CheckDuplicate()
+    public boolean CheckDuplicate()
     {
         int i = 0 , j = 0;
 
         for(i = 0 ; i < Arr.length ; i++)
         {
-            for(j = i +1 ; j < Arr.length ; j++)
+            for(j = i + 1 ; j < Arr.length ; j++)
             {
                 if(Arr[i] == Arr[j])
                 {
+                    System.out.print(Arr[i]+" "+Arr[j]);
                     return true;
                 }
             }

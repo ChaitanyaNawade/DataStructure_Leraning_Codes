@@ -17,7 +17,7 @@ class ArrayOperation
         {
             for(j = 0 ; j < n - 1; j++)
             {
-                if(Arr[j] > Arr[j+1])
+                if(Arr[j] == 0)
                 {
                     temp = Arr[j];
                     Arr[j] = Arr[j+1];
@@ -30,7 +30,7 @@ class ArrayOperation
     public void Display()
     {
         int i = 0;
-  
+
         for(i = 0 ; i < Arr.length; i++)
         {
             System.out.print(Arr[i]+" ");
@@ -38,7 +38,7 @@ class ArrayOperation
     }
 }
 
-class BubbleSort 
+class MoveZeroToEnd 
 {
     public static void main(String[] args) 
     {

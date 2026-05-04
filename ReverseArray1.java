@@ -27,7 +27,7 @@ class ArrayX
 
         for(iCnt =  0 ; iCnt < Brr.length ; iCnt++)
         {
-            System.out.println(Brr[iCnt]);
+            System.out.print(Brr[iCnt]);
         }
     }
 }

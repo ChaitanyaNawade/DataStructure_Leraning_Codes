@@ -15,7 +15,7 @@ bool CheckNum(int arr[],int iLength,int iNum)
                 break;
             }
         }
-
+        
         return bFlag;
 }
 

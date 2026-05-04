@@ -4,7 +4,8 @@ class ArrayOperation
 {
     public int Arr[];
 
-    public ArrayOperation(int Arr[]) {
+    public ArrayOperation(int Arr[]) 
+    {
         this.Arr = Arr;
     }
 
